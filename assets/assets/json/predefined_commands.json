@@ -1,0 +1,10282 @@
+{
+  "genericCommands": [
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.add"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.conditions"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.configured"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.destinations"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.http.authentication.add"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.http.authentication.entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.http.authentication.remove"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.http.logging.clear"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.http.logging.entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.http.logging.max_entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.http.proxy"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.send_current_status_alerts"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.tracked_settings.clear_log"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.tracked_settings.log_tracked"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.tracked_settings.max_log_entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.tracked_sgds.log"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.tracked_sgds.max_log_entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "alerts.tracked_sgds.zbi_notified"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "apl.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "apl.framework_version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "apl.settings"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "apl.version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "appl.link_os_version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "appl.option_board_version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "appl.bootblock"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "appl.date"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "appl.name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "capture.channel1.count"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "capture.channel1.data.mime"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "capture.channel1.data.raw"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "capture.channel1.delimiter"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "capture.channel1.max_length"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "capture.channel1.port"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "comm.baud"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "comm.halt"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "comm.mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "comm.pnp_option"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "comm.type"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "comm.parity"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "comm.stop_bits"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "cradle.comm.baud"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "cradle.comm.handshake"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "cutter.clean_cutter"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.allow_firmware_downloads"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.data_ready"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.end_print"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.feed"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.media_out"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.pause"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.reprint"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.rfid_void"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.ribbon_low"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.ribbon_out"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.service_required"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.start_print"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.bluetooth_installed"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.command_override.active"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.command_override.add"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.command_override.clear"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.command_override.list"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.company_contact"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.configuration_number"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.cpcl_synchronous_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.cutter_installed"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.download_connection_timeout"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.download_interactive_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.epl_legacy_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.feature.bluetooth_le"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.feature.mcr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.feature.nfc"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.feature.ribbon_cartridge"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.feature.802_11ac"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.feature.head_element_test"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.friendly_name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.frontpanel.feedenabled"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.frontpanel.key_press"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.frontpanel.line1"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.frontpanel.line2"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.frontpanel.xml"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.host_identification"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.host_status"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.idle_display_format"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.idle_display_value"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.internal_wired_setting_location"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.jobs_print"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.job_log.total_jobs_logged"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.languages"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.light.cover_open_brightness"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.light.head_open_brightness"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.location"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.loader_version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.ltu_installed"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.mcu_communication.revision"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.mcu_cutter.revision"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.mcu_cutter.desired_revision"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.mcu_io_expand_rev"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.mcu_io_expand.desired_rev"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.orientation"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.pause"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.pnp_option"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.pmcu.revision"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.position.accuracy"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.position.altitude"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.position.latitude"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.position.longitude"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.print_2key"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.print_reprogram_2key"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.printhead.test.summary"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.printhead.odometer"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.printhead.test.detail"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.product_name_submodel"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.prompted_network_reset"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.prompted_default_network"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.prompted_reset"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.protected_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.protected_mode_allowed"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.reset"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.reset_button_enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.restore_defaults"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.rewinder_installed"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.save_2key"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.sensor_select"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.sensor_profile"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_number.option_board_date"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.control_panel_date"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.mlb_date"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.processor"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.applicator_option_board_date"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.wired_ethernet_option_board"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.wired_ethernet_option_board_date"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.applicator_option_board"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.cutter"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.cutter_date"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.printhead"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.printhead_date"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.usb_host_option_board_date"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.usb_host_option_board"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.parallel_option_board"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.serial_numbers.parallel_option_board_date"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.set_clock_to_build_date"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.slot_1"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.slot_2"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.super_host_status"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.syslog.clear_log"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.syslog.configuration"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.syslog.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.syslog.entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.syslog.log_max_file_size"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.syslog.save_local_file"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.data_ready_activation"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.error_on_pause"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.start_print_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.applicator.voltage"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.unique_id"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.unpause"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.uptime"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.user_p1"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.user_p2"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.user_vars.set_range"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.user_vars.create"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.xml.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.feature.lighted_arrows"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.light.ribbon_path_brightness"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.light.media_path_brightness"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "device.zuid"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "display.backlight"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "display.backlight_on_time"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "display.batch_counter"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "display.bluetooth.mac"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "display.calibrate"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "display.language"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "display.load_card"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "display.password.level"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "display.root_wml"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "display.text"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "file.capture_response.destination"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "head.resolution.in_dpi"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ezpl.head_close_action"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ezpl.label_length_max"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ezpl.label_sensor"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ezpl.manual_calibration"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ezpl.media_type"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ezpl.power_up_action"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ezpl.print_method"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ezpl.print_width"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ezpl.reprint_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ezpl.take_label"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ezpl.tear_off"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "file.cert.expiration"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "file.cert.supported_curves"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "file.delete"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "file.dir"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "file.dir_format"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "file.type"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "file.run"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "formats.cancel_all"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "head.authenticated"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "head.darkness_switch_enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "head.darkness_switch"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "head.element_test"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "head.latch"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "input.capture"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.arp_interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.cable_type"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.dhcp_received_host_name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.gateway"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.ip_addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.mac_addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.mac_raw"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.netmask"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.protocol"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.protocol_error"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.rx_errors"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.rx_packets"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.server_address"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.speed"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.tx_errors"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.tx_packets"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.active.wins_addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "interface.network.settings_require_reset"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.firewall.authentication.add"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.firewall.authentication.entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.firewall.authentication.remove"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.firewall.proxy"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.firewall.whitelist_in"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.https.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.https.port"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.ping_gateway_interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.pop3.print_body"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.pop3.print_headers"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.pop3.save_attachments"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.pop3.verbose_headers"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.tls.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.tls.port"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.tls.port_json_config"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "log.reboot.code"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "log.reboot.codes"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "log.reboot.reason"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "log.reboot.report"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mcr.crypt.enabled"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mcr.cancel"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mcr.crypt.key_mgmt"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mcr.crypt.algorithm"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mcr.out"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mcr.revision"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.bar_location"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.cartridge.darkness"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.cartridge.labels_remaining"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.cartridge.width"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.cartridge.total_label_cnt"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.cartridge.speed"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.cartridge.length"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.cartridge.inserted"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.cartridge.part_number"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.cut_now"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.darkness_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.draft_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.dynamic_length_calibration"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.feed_skip"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.media_low.external"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.media_low.warning"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.part_number"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.present.cut_amount"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.present.eject"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.present.length_addition"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.present.loop_length"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.present.loop_length_max"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.present.cut_margin"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.present.present_timeout"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.present.present_type"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.printmode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.speed"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.serial_number"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "media.tof"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "memory.flash_free"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "memory.flash_size"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "memory.ram_free"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "memory.ram_size"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.logging.clear"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.logging.entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.logging.max_entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.restore_defaults"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn1.clean_session_flag"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn1.password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn1.ping_interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn1.reset_now"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn1.reset_required"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn1.retry_interval_random_max"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn1.server_address"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn1.tenant_id"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn1.username"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn2.clean_session_flag"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn2.password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn2.ping_interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn2.reset_now"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn2.reset_required"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn2.retry_interval_random_max"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn2.server_address"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn2.tenant_id"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "mqtt.conn2.username"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.agent_addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.available_agent"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.available_port"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.encryption_type"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.interval_update"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.model_name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.set_property"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.startup_update"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.tcp_connection_timeout"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.terminal_id"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.text_msg.beep"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.text_msg.display"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.text_msg.print"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.avalanche.udp_timeout"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.error_code"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.state_code"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "netmanage.status_code"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.cut_marker_count"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.headclean"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.headnew"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.label_dot_length"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.media_marker_count"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.media_marker_count1"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.media_marker_count2"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.net_media_length"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.net_ribbon_length"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.retracts_count"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.rfid.valid_resettable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.rfid.void_resettable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.total_cuts"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.total_print_length"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.total_label_count"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.user_label_count"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.user_total_cuts"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.user_label_count1"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.user_label_count2"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "odometer.latch_open_count"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "parallel_port.mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "parallel_port.present"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.average_current"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.battery_led_blink_rate"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.battery_led_enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.battery_led_off_duration"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.battery_led_on_duration"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.battery_type"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.dtr_power_off"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.energy_star.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.energy_star.timeout"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.label_queue.shutdown"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.power_on_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.shutdown"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.voltage"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.wake.radio"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.current"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.temperature"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.percent_health"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.part_number"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.sleep.cradle"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.remaining_capacity"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "power.cycle_count"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "print.legacy_compatibility"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "print.tone"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "print.troubleshooting_label_print"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.adaptive_antenna"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.antenna_sweep"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.country_code"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.error.response"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.hop_table_version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.position.program"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.reader_1.antenna_port"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.reader_1.power.read"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.reader_1.power.write"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.reader_1.power.single_power"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.reader_1.firmware_version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.reader_1.hardware_version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.reader_1.model"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.recipe_version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.region_code"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.tag.calibrate"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.tag.data"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.tag.read.content"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.tag.read.execute"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.tag.read.result_line1"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.tag.read.result_line2"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.tag.read.result_line1_alternate"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.tag.read.result_line2_alternate"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.tag.test"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.tag.test.content"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.tag.test.execute"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.tag.test.result_line1"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.tag.test.result_line2"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.tag.type"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.log.enabled"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.log.entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rfid.log.clear"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ribbon.serial_number"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ribbon.part_number"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ribbon.cartridge.part_number"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ribbon.cartridge.length_remaining"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ribbon.cartridge.length"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ribbon.cartridge.authenticated"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ribbon.cartridge.inserted"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ribbon.coating"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ribbon.tension"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rtc.exists"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rtc.date"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rtc.time"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rtc.timezone"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "rtc.unix_timestamp"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.air_pressure.current_reading"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.ambient_light.current_reading"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.battery.in_volts"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.back_bar.brightness"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.back_bar.ppr_out_thold"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.back_bar.cur"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.cover_open"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.front_bar.ppr_out_thold"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.front_bar.cur"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.front_bar.thold"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.front_bar.gain"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.front_bar.brightness"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.front_bar.offset"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.back_bar.offset"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.gap.thold"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.gap.offset"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.gap.gain"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.gap.brightness"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.head.temp_avg"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.head.temp_celsius"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.head.temp"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.magnetometer.current_reading"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.object_temperature.current_reading"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.peel.thold"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.peel.gain"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.paper_supply"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.peeler"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.peel.brightness"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.proximity.current_reading"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.width.in_dots"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.width.cur"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "sensor.self_adjusting_enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.device.device_id_string"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.device.device_unique_id"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.device.device_version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.device.manufacturer_string"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.device.product_id"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.device.product_string"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.device.serial_string"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.device.vendor_id"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.halt"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.host.config_info_to_usb"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.host.fn_field_data"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.host.fn_last_field"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.host.hid_count"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.host.keyboard_input"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.host.lock_out"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.host.mass_storage_count"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.host.read_list"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.host.read_list_print_delay"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.host.template_list"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.host.template_print_amount"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.host.write_list"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.appl_path"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.auto"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.enabled"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.error_retry"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.feedback.auto"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.feedback.odometer"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.feedback.path"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.fetch"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.last_error"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.last_time"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.path"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.reset_delay"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.success"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "usb.mirror.success_time"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.control.add_breakpoint"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.control.break"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.control.clear_breakpoints"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.control.delete_breakpoint"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.control.line_number"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.control.restart"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.control.run"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.control.step"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.control.terminate"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.control.variable_name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.control.variable_value"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.key"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.last_error"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.program_list"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.reseller_key"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.revision"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.running_program_name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.start_info.execute"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.start_info.file_name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.start_info.memory_alloc"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zbi.state"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zpl.calibrate"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zpl.format_prefix"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zpl.caret"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zpl.control_character"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zpl.delimiter"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zpl.label_length"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zpl.label_length_always"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zpl.left_position"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zpl.system_error"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zpl.system_status"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zpl.zpl_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zpl.zpl_override"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "zpl.relative_darkness"
+    }
+  ],
+  "wiredCommands": [
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.check"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.arp_interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.default_addr_enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.dhcp.cid_all"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.dhcp.cid_enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.dhcp.cid_prefix"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.dhcp.cid_suffix"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.dhcp.cid_type"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.gateway"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.netmask"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.port"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.protocol"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.timeout.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.timeout.value"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.v6.addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.v6.gateway"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.ip.v6.prefix_length"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.mac_addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "external_wired.mac_raw"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.8021x.password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.8021x.peap.validate_server_certificate"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.8021x.peap.anonymous_identity"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.8021x.private_key_password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.8021x.security"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.8021x.ttls_tunnel"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.8021x.username"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.activity_led"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.auto_switchover"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.installed"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.arp_interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.default_addr_enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.arp_verify"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.cache_ip"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.cid_all"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.cid_enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.cid_prefix"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.cid_suffix"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.cid_type"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.lease.last_attempt"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.lease.length"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.lease.server"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.lease.time_left"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.option12"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.option12_format"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.option12_value"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dhcp.requests_per_session"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.dns.servers"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.gateway"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.netmask"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.port"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.port_alternate"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.port_json_config"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.protocol"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.timeout.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.timeout.value"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.wins.addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.ip.wins.permanent_source"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.mac_addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "internal_wired.mac_raw"
+    }
+  ],
+  "wirelessCommands": [
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.address"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.afh_map"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.afh_map_curr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.afh_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.allow_non_display_numeric_comparison"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.authentication"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.bluetooth_pin"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.clear_bonding_cache"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.date"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.discoverable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.enable_reconnect"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.friendly_name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.json_config_channel_enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.power_class"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.le.controller_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.le.power_class"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.le.minimum_security"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.page_scan_window"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.local_name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.minimum_security_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.radio_auto_baud"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.radio_version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.short_address"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "bluetooth.version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "card.mac_addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "card.inserted"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.active_network"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.arp_interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.bootp.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.arp_verify"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.auto_provision_enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.cache_ip"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.cid_all"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.cid_enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.cid_prefix"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.cid_suffix"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.cid_type"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.cid_value"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.lease.last_attempt"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.lease.server"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.lease.time_left"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.ntp.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.ntp.received_servers"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.option12"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.option12_format"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.option12_value"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.request_timeout"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.requests_per_session"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.session_interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.user_class_id"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dhcp.vendor_class_id"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dns.domain"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.dns.servers"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.ftp.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.ftp.execute_file"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.ftp.request_password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.gateway"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.http.admin_name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.http.admin_password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.http.custom_link_name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.http.custom_link_url"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.http.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.http.faq_url"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.http.port"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.lpd.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mac_raw"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.appl_path"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.auto"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.error_retry"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.feedback.auto"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.feedback.freq"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.feedback.odometer"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.feedback.path"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.fetch"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.freq"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.freq_hours"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.interface"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.last_error"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.last_time"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.path"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.reset_delay"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.server"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.success"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.success_time"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.username"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.mirror.version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.netmask"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.ntp.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.ntp.log"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.ntp.servers"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.pop3.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.pop3.password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.pop3.poll"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.pop3.server_addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.pop3.username"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.port"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.port_alternate"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.port_json_config"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.port_single_conn"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.port_single_conn_idle_timeout"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.primary_network"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.smtp.domain"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.smtp.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.smtp.server_addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.snmp.get_community_name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.snmp.set_community_name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.snmp.trap_community_name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.snmp.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.tcp.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.telnet.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.tcp.nagle_algorithm"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "ip.udp.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.cloud_connect.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn1.authentication.add"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn1.authentication.entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn1.authentication.remove"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn1.location"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn1.num_connections"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn1.maximum_simultaneous_connections"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn1.proxy"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn1.retry_interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn1.test.location"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn1.test.retry_interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn1.retry_interval_random_max"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn1.test.test_on"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn2.authentication.add"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn2.authentication.entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn2.authentication.remove"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn2.location"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn2.num_connections"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn2.maximum_simultaneous_connections"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn2.proxy"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn2.retry_interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn2.test.location"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn2.test.retry_interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn2.retry_interval_random_max"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.ip.conn2.test.test_on"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.logging.clear"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.logging.entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.logging.max_entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.printer_reset_required"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.restore_defaults"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.zebra_connector.authentication.add"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.zebra_connector.authentication.entries"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.zebra_connector.authentication.remove"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.zebra_connector.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.zebra_connector.proxy"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "weblink.zebra_connector.version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.11ac.80mhz_enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.11d.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.11n.20mhz_only"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.11n.aggregation"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.11n.greenfield"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.11n.rifs"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.11n.short_gi_40mhz"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.11n.short_gi_20mhz"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.8021x.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.8021x.validate_peap_server_certificate"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.8021x.peap.anonymous_identity"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.8021x.authentication"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.8021x.eap.password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.8021x.eap.privkey_password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.8021x.peap.peap_password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.8021x.peap.privkey_password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.8021x.peap.peap_username"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.8021x.eap.username"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.active_channels"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.adhoc_last_channel"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.authenticated"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.authentication_error"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.available"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.allowed_band"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.adhocautomode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.adhocchannel"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.associated"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.auth_type"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.band_preference"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.bssid"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.channel"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.channel_mask"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.country_code"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.current_tx_rate"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.encryption_index"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.encryption_key"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.encryption_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.essid"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.firmware_version"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.arp_interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.default_addr_enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.arp_verify"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.cache_ip"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.cid_all"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.cid_enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.cid_prefix"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.cid_suffix"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.cid_type"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.lease.last_attempt"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.lease.length"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.lease.server"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.lease.time_left"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.option12"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.option12_format"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.option12_value"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.request_timeout"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.requests_per_session"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dhcp.session_interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.dns.servers"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.gateway"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.netmask"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.port"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.port_alternate"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.port_json_config"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.protocol"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.timeout.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.timeout.value"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.wins.addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.ip.wins.permanent_source"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.keep_alive.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.keep_alive.timeout"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.kerberos.kdc"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.kerberos.mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.kerberos.password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.kerberos.realm"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.kerberos.username"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.leap_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.leap_password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.leap_username"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.mac_addr"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.mac_raw"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.operating_mode"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.permitted_channels"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.pmf"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.poor_signal_threshold"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.preamble"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.private_key_password"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.region_code"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.roam.interchannel_delay"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.roam.interval"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.roam.max_chan_scan_time"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.roam.max_fail"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.roam.monitor"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.roam.rssi"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.roam.signal"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.rts_cts_enabled"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.security"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.signal_noise"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.signal_quality"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.signal_strength"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.station_name"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.tx_power"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.tx_rate"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.user_channel_list"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.username"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.waveagent.enable"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.waveagent.udp_port"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.wep.auth_type"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.wep.index"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.wep.key1"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.wep.key2"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.wep.key3"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.wep.key4"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.wpa.psk"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.wep.key_format"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.wpa.groupkey_ciphersuite"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.wpa.pairwise_ciphersuite"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.wpa.timecheck"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "wlan.wpa.wpa_version"
+    }
+  ],
+  "otherCommands": [
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "allcv"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "allconfig"
+    },
+    {
+      "usableCommandTypes": [
+        "get",
+        "set",
+        "do"
+      ],
+      "usableExportTypes": [
+        "sgd",
+        "json"
+      ],
+      "command": "allvalues"
+    }
+  ]
+}
